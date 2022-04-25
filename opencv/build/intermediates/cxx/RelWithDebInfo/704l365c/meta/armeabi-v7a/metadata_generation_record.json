@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1619073104
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -381745410
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -420239222
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2086978632
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1545775392
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\u0027",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1040129606
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\704l365c\\obj\\armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\704l365c\\obj\\armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1519960447
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\FR22001\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\704l365c\\obj\\armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\704l365c\\obj\\armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BC:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1943746496
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -844252496
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1233429141
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\.cxx\\RelWithDebInfo\\704l365c\\armeabi-v7a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2047569608
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\FR22001\\StudioProjects\\DewarpingApp\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1123465071
+  }
+]
