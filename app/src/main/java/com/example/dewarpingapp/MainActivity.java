@@ -6,9 +6,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -24,6 +29,8 @@ import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,6 +40,7 @@ import java.util.Dictionary;
 import java.util.List;
 import java.util.Optional;
 import java.util.OptionalDouble;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -153,6 +161,7 @@ public class MainActivity extends AppCompatActivity {
                 new Point(width - 1, height - 1),
                 new Point( 0, height - 1)
         );
+
         Mat perspectiveTransform = Imgproc.getPerspectiveTransform(approxCurve,dstQuad);
         Imgproc.warpPerspective(perspectiveTransform, rgb, dst, new Size(width,height));
 
@@ -167,6 +176,66 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        MenuInflater inflater = getMenuInflater();
+
+        inflater.inflate(R.menu.main_menu, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected (MenuItem item)
+    {
+        Toast toast = Toast.makeText(getApplicationContext(),"", Toast.LENGTH_LONG);
+
+        switch(item.getItemId())
+        {
+            case R.id.save:
+                savePic();
+                break;
+        }
+
+        toast.show();
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void savePic(){
+        int leftLimit = 48; // numeral '0'
+        int rightLimit = 122; // letter 'z'
+        int targetStringLength = 10;
+        Random random = new Random();
+        String filename = "";
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+            filename = random.ints(leftLimit,rightLimit + 1)
+                    .filter(i -> (i <= 57 || i >= 65) && (i <= 90 || i >= 97))
+                    .limit(targetStringLength)
+                    .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                    .toString();
+        }
+
+        ImageView imageView = (ImageView)findViewById(R.id.imgView);
+        String StoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        String savePath = StoragePath + "/Download/";
+        File f = new File(savePath);
+        if (!f.isDirectory())f.mkdirs();
+
+        Bitmap bitmap = ((BitmapDrawable)imageView.getDrawable()).getBitmap();
+        FileOutputStream fos;
+        try{
+            fos = new FileOutputStream(savePath+"/"+filename+".jpg");
+            if(bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fos))
+                Toast.makeText(this, "saved"+filename, Toast.LENGTH_LONG).show();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     public void takePhoto (View view){
